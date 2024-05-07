@@ -1,0 +1,43 @@
+/* MainComponent.css */
+.Container {
+  padding-top: 20px; /* Space above the content */
+}
+
+.Tabs {
+  background-color: #fff; /* Background color for tabs */
+}
+
+.Tab {
+  font-size: 16px; /* Larger text for clear legibility */
+}
+
+.TabContainer {
+  background-color: #f0f0f0; /* Light grey background for content area */
+  border: 1px solid #ddd; /* Subtle border */
+  padding: 20px; /* Padding around text */
+  margin-top: 10px; /* Space between tabs and content */
+}
+
+.main-comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set to full viewport height */
+  width: 100vw; /* Set to full viewport width */
+  background-image: linear-gradient(to right, rgba(72, 98, 133, 0.103) 50%, white 50%);
+  background-size: 40px 100%; /* Width of stripes and full height */
+}
+
+
+/* Add specific styles for new content types */
+.image, .video, .chart {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.interactive-demo {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
